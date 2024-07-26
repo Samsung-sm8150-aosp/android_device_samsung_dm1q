@@ -16,9 +16,10 @@ TARGET_OTA_ASSERT_DEVICE := dm1q
 TARGET_SCREEN_DENSITY := 450
 
 #Kernel
-TARGET_KERNEL_DIR := $(DEVICE_PATH)-kernel
-BOARD_PREBUILT_DTBOIMAGE := $(TARGET_KERNEL_DIR)/dtbo.img
-BOARD_PREBUILT_DTBIMAGE_DIR := $(TARGET_KERNEL_DIR)
+# TARGET_KERNEL_DIR := $(DEVICE_PATH)-kernel
+# BOARD_PREBUILT_DTBOIMAGE := $(TARGET_KERNEL_DIR)/dtbo.img
+# BOARD_PREBUILT_DTBIMAGE_DIR := $(TARGET_KERNEL_DIR)
+TARGET_KERNEL_CONFIG := dm1q_defconfig
 
 # Kernel Modules
 BOARD_SYSTEM_KERNEL_MODULES := $(strip $(shell cat $(DEVICE_PATH)/modules.load.system_dlkm))
@@ -57,7 +58,6 @@ TARGET_KERNEL_EXT_MODULES := \
   qcom/opensource/graphics-kernel \
   qcom/opensource/wlan/platform \
   qcom/opensource/wlan/qcacld-3.0/.qca6490 \
-  qcom/opensource/bt-kernel \
-  qcom/opensource/touch-drivers
+  qcom/opensource/bt-kernel
 
   TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop

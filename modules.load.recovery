@@ -354,7 +354,7 @@ usb_f_diag.ko
 usb_f_gsi.ko
 usb_f_qdss.ko
 usb_f_ss_acm.ko
-usb_f_ss_mon_gadget.ko
+
 usbmon.ko
 usb_notifier_qcom.ko
 usb_notify_layer.ko

@@ -178,6 +178,7 @@ vendor/lib64/libfrc.quram.so
 vendor/lib64/libfrc_quram.uniplugin@1.0.so
 vendor/lib64/libFrucSSMLib.so
 vendor/lib64/libhal.wsm.samsung.so
+vendor/lib64/vendor.samsung.hardware.security.wsm.service-V1-ndk.so
 vendor/lib64/libhdraid.npu.arcsoft.so
 vendor/lib64/libiddqd.uniplugin@1.0.so
 vendor/lib64/libImageSegmenter_v1.camera.samsung.so
@@ -200,6 +201,8 @@ vendor/lib64/libsingle_portrait_preview.uniplugin@1.0.so
 vendor/lib64/libsmartfocus.uniplugin@1.0.so
 vendor/lib64/libSmartScan.camera.samsung.so
 vendor/lib64/libssengine.uniplugin@1.0.so
+vendor/lib64/libshotsuggestion.so
+vendor/lib64/libshotsuggestion_engines.so
 vendor/lib64/libSWNDFilterPreview.camera.samsung.so
 vendor/lib64/libUniPluginUtils.so
 vendor/lib64/libUniScaler.uniplugin@1.0.so

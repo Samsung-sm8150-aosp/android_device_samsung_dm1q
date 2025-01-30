@@ -22,7 +22,8 @@ PRODUCT_PACKAGES += \
 
 # Init
 PRODUCT_PACKAGES += \
-    init.dm1q.rc
+    init.dm1q.rc \
+    vendor.samsung.hardware.radio.network-V1-ndk
 
 # Namespaces
 PRODUCT_SOONG_NAMESPACES += \

@@ -83,7 +83,7 @@ sec_class.ko
 sec_key_notifier.ko
 i2c-gpio.ko
 pmic_class.ko
-s2dos05-regulator.ko
+
 mfd_s2mpb02.ko
 s2mpb02-regulator.ko
 stub-regulator.ko

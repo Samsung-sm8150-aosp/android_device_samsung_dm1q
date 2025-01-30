@@ -202,7 +202,7 @@ flicker_sensor.ko
 max77705-fuelgauge.ko
 sec-direct-charger.ko
 snvm.ko
-uwb.ko
+
 sec_thermistor.ko
 hwmon.ko
 isg6320.ko

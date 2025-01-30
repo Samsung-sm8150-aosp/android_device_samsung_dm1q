@@ -297,10 +297,10 @@ sec-direct-charger.ko
 sec_pd.ko
 sec-battery.ko
 snvm.ko
-s2dos05-regulator.ko
+
 pdic_max77705.ko
 s2mpb02-regulator.ko
-uwb.ko
+
 sec_thermistor.ko
 isg6320.ko
 s2miw04_charger.ko
